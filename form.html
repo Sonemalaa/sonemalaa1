@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Create Form</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6 bg-info rounded p-3">
+                    <font face="phetsarath ot"><h2 align="center">ຟອມລົງທະບຽນ</h2><br>
+                    <form>
+                        <input type="text" name="fnname" maxlength="20" placeholder="ພິມຊື່" class="form-control"><br>
+                        <input type="text" name="lnname" maxlength="20" placeholder="ພິມນາມສະກູນ" class="form-control"><br>
+                        <input type="email" name="email" maxlength="25" placeholder="ພິມອິເມວ" class="form-control"><br>
+                        <input type="password" name="pw" maxlength="15" placeholder="ພິມລະຫັດຜ່ານ" class="form-control"><br>
+                        <input type="submit" value="ລົງທະບຽນ">
+                        <h4>ທ່ານເຄີຍຮຽນພາສາຫຍັງມາກ່ອນບໍ່</h4>
+                        <input type="checkbox" name="html"> ພາສາ HTML <br>
+                        <input type="checkbox" name="css"> ພາສາ CSS  <br>
+                        <input type="checkbox" name="java">ພາສາ java <br>
+                        <h4>ທ່ານແມ່ນເພດ</h4>
+                        <input type="radio " name="gender" value="female"> ເພດຍິງ <br>
+                        <input type="radio " name="gender" value="male"> ເພດຊາຍ <br>
+                        <h4>ວັນທີ, ເດືອນ, ປີເກີດ</h4>
+                        <select name="date">
+                            <option name="">ວັນທີ</option>
+                            <option name="01">01</option>
+                            <option name="02">02</option>
+                            <option name="03">03</option>
+                        </select>
+                        <select name="month">
+                            <option name="">ເດືອນ</option>
+                            <option name="jan">ມັງກອນ</option>
+                            <option name="feb">ກຸມພາ</option>
+                            <option name="march">ມີນນາ</option>
+                        </select>
+                        <select name="year">
+                            <option name="">ປີ</option>
+                            <option name="1990">1990</option>
+                            <option name="1991">1991</option>
+                            <option name="1992">1992</option>
+                        </select><br>
+                        <h4>ທີ່ຢູ່</h4>
+                        <textarea name="address" cols="50" rows="5"></textarea><br><br>
+                        <input type="submit" value="ລົງທະບຽນ" class="btn-btn-success">
+                        <input type="reset" value="ຍົກເລີກ" class="btn btn-primary">
+                    </font></form>                         
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </body>
+</html>
